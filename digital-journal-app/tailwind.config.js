@@ -1,4 +1,5 @@
-/** @type {import('tailwindcss').Config} */
+import('tailwindcss')
+
 export default {
     content: [
       "./index.html",
@@ -6,9 +7,9 @@ export default {
     ],
     theme: {
       extend: {
-        backgroundImage: {
-            plant: "url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1740&q=80')"
-          }
+        fontFamily: {
+          notebook: ['GuRu-Font'],
+        },
       },
     },
     plugins: [],
