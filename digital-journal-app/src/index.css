@@ -4,3 +4,9 @@
 @import "tailwindcss";
 
 
+@font-face {
+    font-family: 'GuRu-Font';
+    src: url('./assets/fonts/GuRu-Font/GuRu-hand1-2008.ttf') format('tff');
+    font-weight: normal;
+    font-style: normal;
+  }
