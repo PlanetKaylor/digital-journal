@@ -1,12 +1,26 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 @import "tailwindcss";
 
-
 @font-face {
-    font-family: 'GuRu-Font';
-    src: url('./assets/fonts/GuRu-Font/GuRu-hand1-2008.ttf') format('tff');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'GuRuFont';
+    src: url('../src/assets/fonts/GuRu-Font/GuRu-hand1-2008.ttf');
   }
+
+  @font-face {
+    font-family: 'ArialNova';
+    src: url('../src/assets/fonts/ArialNova/ArialNova.tff');
+  }
+
+  @font-face {
+    font-family: 'Hibernate';
+    src: url('../src/assets/fonts/Hibernate-Font/Hibernate.otf');
+  }
+
+
+
+@theme {
+  --font-GuruFont: GuruFont, "sans-serif";
+  --font-ArialNova: ArialNova, "sans-serif";
+  --font-Hibernate: Hibernate, "sans-serif";
+
+}
+  

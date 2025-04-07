@@ -7,9 +7,6 @@ export default {
     ],
     theme: {
       extend: {
-        fontFamily: {
-          notebook: ['GuRu-Font'],
-        },
       },
     },
     plugins: [],
